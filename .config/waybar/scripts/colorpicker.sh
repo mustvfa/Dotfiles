@@ -36,14 +36,8 @@ EOF
   exit
 }
 
-check hyprpicker || {
-  notify "hyprpicker is not installed"
-  exit
-}
-killall -q hyprpicker
-color=$(hyprpicker | grep -v "^\[ERR\]")
-[[ -n $color ]] || exit
-
+check wl-color-picker || { notify-send "wl-color-picker is not installed"; exit; }
+color=$(wl-color-picker clipboard)
 check wl-copy && {
   echo "$color" | sed -z 's/\n//g' | wl-copy
 }

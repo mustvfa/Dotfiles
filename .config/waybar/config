@@ -3,19 +3,23 @@
         "position": "top",
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","tray"],
-        "modules-center": ["hyprland/workspaces"],
+        "modules-center": ["sway/workspaces"],
         "modules-right": ["group/expand","bluetooth","network","battery"],
 
 
-        "hyprland/workspaces": {
+        "sway/workspaces": {
             "format": "{icon}",
             "format-icons": {
-                "active": "",
+                "focused": "",
                 "default": "",
                 "empty": ""
             },
-            "persistent-workspaces": {
-                "*": [ 1,2,3,4,5 ]
+            "persistent_workspaces": {
+             "1": true,
+             "2": true,
+             "3": true,
+             "4": true,
+             "5": true
             }
         },
         "custom/notification": {
