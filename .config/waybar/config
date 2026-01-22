@@ -14,12 +14,11 @@
                 "default": "",
                 "empty": ""
             },
-            "persistent_workspaces": {
-             "1": true,
-             "2": true,
-             "3": true,
-             "4": true,
-             "5": true
+        "persistent_workspaces": {
+               "1": [],
+               "2": [],
+               "3": [],
+               "4": [],
             }
         },
         "custom/notification": {
@@ -53,7 +52,7 @@
         },
         "bluetooth": {
             "format-on": "󰂯",
-            "format-off": "BT-off",
+            "format-off": "",
             "format-disabled": "󰂲",
             "format-connected-battery": "{device_battery_percentage}% 󰂯",
             "format-alt": "{device_alias} 󰂯",
@@ -70,9 +69,9 @@
                 "warning": 30,
                 "critical": 20
             },
-            "format": "{capacity}% {icon}",
-            "format-charging": "{capacity}% 󰂄",
-            "format-plugged": "{capacity}% 󰂄 ",
+            "format": "97",
+            "format-charging": "97% 󰂄",
+            "format-plugged": "97% 󰂄 ",
             "format-alt": "{time} {icon}",
             "format-icons": [
                 "󰁻",
