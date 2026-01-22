@@ -71,7 +71,7 @@
 
                 {
                     "label": "",
-                    "command": "kitty nmtui"
+                    "command": "foot nmtui"
                 },
                 {
                     "label": "",
@@ -90,16 +90,16 @@
 
                 {
                     "label": "󰈙",
-                    "command": "kitty bash -i -c 'Docs'"
+                    "command": "foot bash -i -c 'Docs'"
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'Settings'"
+                    "command": "foot bash -i -c 'Settings'"
                     
                 },
                 {
                     "label": "",
-                    "command": "kitty bash -i -c 'tasks'"
+                    "command": "foot bash -i -c 'tasks'"
 
                 },
                 {
